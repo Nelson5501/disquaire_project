@@ -1,0 +1,98 @@
+body {
+    background-color: #f2ddde;
+}
+#buttonretour {
+    background-color: transparent;
+    border: none;
+
+}
+
+.navbar-collapse {
+    font-family: 'Julius Sans One', sans-serif;
+    list-style: none;
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+}
+
+a{
+    color: rgb(150, 150, 150);
+}
+.Logo-shopping-bag{
+    height:30px ;
+    width: 30px;
+}
+
+blockquote {
+    text-align: center;
+    text-decoration: none
+}
+
+
+.Connections {
+    text-align: right;
+    font-size: 20px;
+}
+
+.title {
+    font-family: American Typewriter;
+    margin: 15px;
+    font-size: 30px;
+}
+
+
+
+form {
+    font-family: 'Julius Sans One', sans-serif;;
+    padding: 10%;
+    margin: 10%;
+    line-height: 40px;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+input {
+    border: 1px solid rgb(202, 235, 255);
+    font-size: 25px;
+    text-align: right;
+
+}
+
+button {
+    font-family: 'Julius Sans One', sans-serif;
+    border: solid 1px rgb(202, 235, 255);
+    font-size: 17px;
+    text-align: center;
+    border-style: ridge;
+    cursor: default;
+    outline: none;
+}
+
+.socialimages img{
+    width: 20px;
+    height: 20px;
+    left: 15%;
+
+}
+
+.PWoublié {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.connections {
+    font-family: 'Julius Sans One', sans-serif;
+    list-style: none;
+    font-size: 10px;
+    text-decoration: none;
+    margin-top: 15%;
+    margin-right: 33%;
+    font-size: 25px;
+    text-align: right;
+
+
+}

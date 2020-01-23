@@ -1,0 +1,63 @@
+body {
+    background-color: #f2ddde;
+}
+a{
+    color: rgb(150, 150, 150);
+}
+#Logo-shopping-bag{
+    height:30px ;
+    width: 30px;
+}
+#buttonretour{
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-collapse{
+    font-family: 'Julius Sans One', sans-serif;
+
+    list-style:none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: purple;
+
+}
+
+.Logo-shopping-bag{
+    height:30px ;
+    width: 30px;
+}
+
+blockquote {
+    text-align: center;
+    text-decoration: none
+}
+
+
+.Connections {
+    text-align: right;
+    font-size: 20px;
+}
+
+img.sticky {
+    float: right;
+    margin: 3%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 500px;
+  }
+.footer {
+    left: 10;
+    bottom: 0;
+    width: 100%;
+    background-color: plum;
+    color: black;
+    text-align: unset;
+}
+p{
+    margin-right: 45%;
+    padding: 4%;   
+}

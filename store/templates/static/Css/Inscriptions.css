@@ -1,0 +1,82 @@
+body{
+    background-color: #f2ddde;
+    text-align: left;
+    font-size: 20px;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	color:#111;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+h1, h2, h3 {
+	text-transform:uppercase;
+}
+
+input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 1;
+    filter: alpha(opacity=1);    
+}
+
+.form-inline .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}
+#buttonretour{
+    background-color: transparent;
+    border: none;
+}
+.navbar-collapse{
+  font-family: 'Julius Sans One', sans-serif;
+
+    list-style:none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: purple;
+  
+  }
+  
+  .Logo-shopping-bag{
+    height:30px ;
+    width: 30px;
+  }
+input, select, textarea {
+
+    text-align: left;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    resize: horizontal;
+}
+input button{
+
+    text-align: left;
+    font-size: 15px;
+    width: 10%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    resize: horizontal;
+    block-size: 40px;
+}
+

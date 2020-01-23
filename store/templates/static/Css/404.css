@@ -1,0 +1,35 @@
+body{
+background-image:repeating-linear-gradient(to right, rgb(247, 145, 162),rgb(249, 194, 203));
+}   
+.error h1{
+    color: pink;
+    text-shadow: 5px 2px 10px #FD6C9E;
+    font-size: 100px;
+    text-align: center;
+}p{
+    color: black;
+    padding-top:auto;
+    text-align: center;
+    font-size: 50px;
+    color: pink;
+    text-shadow: 5px 2px 2px #FD6C9E;
+    text-align: center;
+}
+button{
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    color: #FEFEFE;
+    text-shadow: 5px 2px 2px #FD6C9E;
+}
+    p:hover{
+        color: white;
+    }
+    .error :hover{
+        color: white;
+    }
+    button:hover{
+        color: white;
+    }

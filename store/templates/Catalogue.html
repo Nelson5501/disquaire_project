@@ -1,0 +1,466 @@
+<!--STRUCTURES-->
+<!DOCTYPE html>
+
+<head>
+    <html lang="fr">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initia -scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../Php/Produits.php">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="YOUR KEY" id="snipcart"></script>
+    <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="../Css/Catalogue.css">
+
+    <title>Addict Beauty</title>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</head>
+
+<body>
+
+    <!--/***********NAVBAR*****************/-->
+
+    <header>
+
+        <nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <div class="navbar-collapse">
+                    <div>
+                        <button id="buttonretour" onclick="goBack()">Addict Beauty</button>
+
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Index.html">Lifestyle</a>
+                        </li>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Catalogue</a>
+                                </li>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Biographie.html">Biographie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                </div>
+                <!--Début--Panier-->
+                <ul class="nav navbar-nav navbar-left">
+                    <nav class="navbar navbar-left" role="navigation">
+                        <div id="ball-dropdown">
+                            <a href="Connection.html"><img id="Logo-shopping-bag" src="../Image/shopping-bag.png"
+                                    alt="Logo de Panier pour ce connecter"></a>
+                            <!--fin--Panier-->
+
+                    </nav>
+            </nav>
+            </div>
+            </div>
+            </div>
+    </header>
+
+    <!--/***********PRODUITS*****************/-->
+    <div class="Filter">
+        <div class="container-fluid bg-transparent ">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-2 pt-3">
+                    <div class="form-group">
+                        <select id="inputState" class="form-control">
+                            <option selected>Marques</option>
+                            <option>Energie fruits</option>
+                            <option>Hello Body</option>
+                            <option>Nuvo</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-2 pt-3">
+
+                    <div class="form-group">
+                        <select id="inputState" class="form-control">
+                            <option selected>Produits</option>
+                            <option>Shampooing</option>
+                            <option>crème</option>
+                            <option>Gommage</option>
+                            <option>Gel Douche</option>
+                            <option>Contour</option>
+                            <option>Masque</option>
+
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="col-md-2 pt-3">
+                    <div class="form-group">
+                        <select id="inputState" class="form-control">
+                            <option selected>Budget</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-2 pt-3">
+                    <div class="form-group ">
+                        <select id="inputState " class="form-control">
+                            <option selected>Sexe</option>
+                            <option>Femme</option>
+                            <option>Homme</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-primary btn-block">Search</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid3">
+                    <div class="product-image3">
+                        <a href="../Html/description-produits/Shampoing-sec.html">
+                            <img class="pic-1" src="../Image/Produits/Energie Fruits/shampoing-sec-fleur-oranger.jpg">
+                            <img class="pic-2" src="../Image/Produits/Energie Fruits/shampoing-sec-fleur-oranger.jpg">
+                        </a>
+                        <ul class="social">
+                            <li><a href="../Php/panier.php"
+                                    onclick="window.open(this.href, '', 
+                                'toolbar=no, location=no, directories=no, status=yes, scrollbars=yes, resizable=yes, copyhistory=no, width=600, height=350'); return false;""><i class="
+                                    fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Shampoing Sec Fleur-oranger<br>By Energie Fruits</a></h3>
+                        <div class="price">
+                            5,00€
+                            <span>6,00€</span>
+                        </div>
+                        <ul class="rating">
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star disable"></li>
+                            <li class="fa fa-star disable"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid3">
+                    <div class="product-image3">
+                        <a href="../Html/description-produits/Creme-hydratante.html">
+                            <img class="pic-1"
+                                src="../Image/Produits/Energie Fruits/Crème Hydratante Mousse ENERGIE FRUIT Coups de Coeur de Mumu 5 .png">
+                            <img class="pic-2"
+                                src="../Image/Produits/Energie Fruits/Crème Hydratante Mousse ENERGIE FRUIT Coups de Coeur de Mumu 5 .png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Designer Top</a></h3>
+                        <div class="price">
+                            5,99 €
+                        </div>
+                        <ul class="rating">
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid3">
+                    <div class="product-image3">
+                        <a href="../Html/description-produits/GelDouche-ByEnergie-Fruit.html">
+                            <img class="pic-1" src="../Image/Produits/Energie Fruits/gel-douche-monoi.jpg">
+                            <img class="pic-2" src="../Image/Produits/Energie Fruits/gel-douche-monoi.jpg">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Gel Douche Fleur d'Oranger et Monoï By Energie Fruit</a></h3>
+                        <div class="price"> 27,00 €
+                            <span>30,00€ </span>
+                        </div>
+                        <ul class="rating">
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star disable"></li>
+                            <li class="fa fa-star disable"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid3">
+                    <div class="product-image3">
+                        <a href="../Html/description-produits/shampoing-deteox.html">
+                            <img class="pic-1" src="../Image/Produits/Energie Fruits/shampoing-micellaire-detox.jpg">
+                            <img class="pic-2" src="../Image/Produits/Energie Fruits/shampoing-micellaire-detox.jpg">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                        <div class="price">
+                            5,00€
+                            <span>6,00€</span>
+                        </div>
+                        <ul class="rating">
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star disable"></li>
+                            <li class="fa fa-star disable"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid3">
+                    <div class="product-image3">
+                        <a href="../Html/description-produits/Coco-pure.html">
+                            <img class="pic-1" src="../Image/Produits/hellobody/COCO-PURE/COCO-PURE-Gommage-visage.jpg">
+                            <img class="pic-2" src="../Image/Produits/hellobody/COCO-PURE/COCO-PURE-Gommage-visage.jpg">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                        <div class="price">
+                            35,00€
+                            <span>$37,00€</span>
+                        </div>
+                        <ul class="rating">
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star disable"></li>
+                            <li class="fa fa-star disable"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid3">
+                    <div class="product-image3">
+                        <a href="./description-produits/Coco-shine.html">
+                            <img class="pic-1" src="../Image/photo nelson.png">
+                            <img class="pic-2" src="../Image/photo nelson.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Designer Top</a></h3>
+                        <div class="price">
+                            25,00€
+                        </div>
+                        <ul class="rating">
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid3">
+                    <div class="product-image3">
+                        <a href="./description-produits/Coco-wow.html">
+                            <img class="pic-1"
+                                src="../Image/Produits/hellobody/COCO-WOW/COCO-WOW-Masque-à-l’argile-rose-matifiant-600x600.jpg">
+                            <img class="pic-2"
+                                src="../Image/Produits/hellobody/COCO-WOW/COCO-WOW-Masque-à-l’argile-rose-matifiant-600x600.jpg ">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                        <div class="price">
+                            35,00€
+                            <span>$37,00€</span>
+                        </div>
+                        <ul class="rating">
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star disable"></li>
+                            <li class="fa fa-star disable"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid3">
+                    <div class="product-image3">
+                        <a href="./description-produits/contour-eye.html">
+                            <img class="pic-1" src="../Image/Produits/Nuvo/Dermato eyes.jpg">
+                            <img class="pic-2" src="../Image/Produits/Nuvo/Nuvo' 72%.jpg">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#"></a></h3>
+                        <div class="price">
+                            23,00€
+                            <span>25,00€</span>
+                        </div>
+                        <ul class="rating">
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star disable"></li>
+                            <li class="fa fa-star disable"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+    <!--/***********PRODUITS*****************/-->
+
+    <!--/***********FOOTER*****************/-->
+
+    <footer class="footer">
+        <div class="footer-copyright text-center py-3"><a
+                href="https://copyright.be/droit_auteur_loi_juridique.html">©</a> 2019 Copyright Design By Nelson
+            Caterino
+        </div>
+        </div>
+
+    </footer>
+
+    <!--/***********FOOTER*****************/-->
+    <!--/***********AUTRES*****************/-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="../Javascript/Catalogue.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

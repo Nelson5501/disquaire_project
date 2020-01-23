@@ -1,0 +1,49 @@
+body {
+    background-color: #f2ddde;
+}
+
+a {
+    color: rgb(150, 150, 150);
+}
+
+#ball-dropdown {
+    list-style-type: none;
+}
+
+.navbar-collapse {
+    font-family: 'Julius Sans One', sans-serif;
+
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: purple;
+
+}
+
+#Logo-shopping-bag {
+    height: 30px;
+    width: 30px;
+}
+
+blockquote {
+    text-align: center;
+    text-decoration: none
+}
+
+
+.Connections {
+    text-align: right;
+    font-size: 20px;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffb6ba30;
+    color: black;
+    text-align: unset;
+}

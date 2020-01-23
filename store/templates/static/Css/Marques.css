@@ -1,0 +1,45 @@
+body{
+    background-color: #f2ddde;
+}
+li:hover{
+    color: plum;
+}
+a:hover{
+    text-decoration: none;
+}
+a{
+    color: purple;
+
+    text-decoration: none;
+}
+nav ul{
+    
+    text-align: center;
+    list-style-type: none;
+    word-spacing: 100px;
+    letter-spacing: 2px;
+    font-size: 23px;
+    color: black;
+}
+.Connections p{
+    text-align: left;
+}
+.Connections {
+    text-align: right;
+    font-size: 20px;
+}
+nav li{
+    color: purple;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+}
+.footer{
+    position: inherit;
+    left: 10;
+    bottom: 0;
+    width: 100%;
+    background-color: plum;
+    color: black;
+    text-align: unset;
+  }

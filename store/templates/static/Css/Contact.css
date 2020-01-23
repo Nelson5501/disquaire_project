@@ -1,0 +1,89 @@
+body {
+  background-color: #f2ddde;
+}
+
+a{
+  color: rgb(150, 150, 150);
+}
+#Logo-shopping-bag{
+  height:30px ;
+  width: 30px;
+}
+#buttonretour{
+  background-color: transparent;
+  border: none;
+}
+.navbar-collapse{
+  font-family: 'Julius Sans One', sans-serif;
+
+  list-style:none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: purple;
+
+}
+
+.Map {
+
+  position: absolute;
+  padding: 5%;
+  right: -3%;
+
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  font-family: 'Julius Sans One', sans-serif;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.envoyer {
+  font-family: 'Julius Sans One', sans-serif;
+
+  border: none;
+  color: rgb(15, 3, 3);
+  padding: 14px 28px;
+  margin: 0%;
+  font-size: 16px;
+  cursor: pointer;
+  position: sticky;
+
+}
+
+footer {
+  position: relative;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffb6ba74;
+  color: black;
+  text-align: unset;
+
+}

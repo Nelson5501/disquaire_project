@@ -1,0 +1,29 @@
+body{
+    background-color: #f2ddde;
+}
+a{
+    color: rgb(150, 150, 150);
+}
+.navbar-collapse{
+    list-style:none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: purple;
+
+}
+
+.Logo-shopping-bag{
+    height:30px ;
+    width: 30px;
+}
+.footer{
+    position: inherit;
+    left: 10;
+    bottom: 0;
+    width: 100%;
+    background-color: plum;
+    color: black;
+    text-align: unset;
+  }
