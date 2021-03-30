@@ -4,7 +4,7 @@ astor==0.8.1
 backports.weakref==1.0.post1
 base==1.0.4
 cycler==0.10.0
-Django==3.0.2
+Django==3.0.12
 django-debug-toolbar==2.1
 django-suit==2.0a1
 enum34==1.1.6
