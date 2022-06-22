@@ -18,7 +18,7 @@ kiwisolver==1.1.0
 Markdown==3.1.1
 matplotlib==3.1.2
 mock==3.0.5
-numpy==1.18.1
+numpy==1.22.0
 protobuf==3.11.2
 pyception==0.1.1
 pyparsing==2.4.6
